@@ -144,12 +144,6 @@ a {
     transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.btn-primary:hover,
-.card-link-btn:hover {
-    background-color: var(--primary-hover);
-    transform: translateY(-2px);
-}
-
 .btn-secondary {
     display: inline-block;
     background-color: transparent;
@@ -165,10 +159,19 @@ a {
     transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.btn-secondary:hover {
-    background-color: var(--secondary-hover);
-    color: var(--text-button);
-    transform: translateY(-2px);
+@media (hover: hover) and (pointer: fine) {
+
+    .btn-primary:hover,
+    .card-link-btn:hover {
+        background-color: var(--primary-hover);
+        transform: translateY(-2px);
+    }
+
+    .btn-secondary:hover {
+        background-color: var(--secondary-hover);
+        color: var(--text-button);
+        transform: translateY(-2px);
+    }
 }
 
 .btn-primary:active,
@@ -236,7 +239,7 @@ img:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 15px 50px;
     position: relative;
     z-index: 1000;
 }
@@ -2436,7 +2439,11 @@ h3 {
 @media screen and (max-width: 768px) {
 
     * {
-        border: 0 !important;
+        border: 0;
+    }
+
+    .global-navbar {
+        padding: 15px !important;
     }
 
     .btn-primary,
