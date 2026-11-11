@@ -83,7 +83,7 @@ body {
     font-family: var(--font-body);
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
-    border: 0;
+    border: none;
 }
 
 #root,
