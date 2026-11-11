@@ -46,8 +46,8 @@
     --radius-smooth: 12px;
     --border-btn: 50px;
     --shadow-soft: 0 4px 20px rgba(123, 44, 191, 0.15);
-    --font-titles: system-ui, sans-serif;
-    --font-body: system-ui, sans-serif;
+    --font-titles: 'Montserrat', system-ui, sans-serif;
+    --font-body: "Segoe UI", -apple-system, Helvetica, Arial, sans-serif;
 }
 
 [data-theme="dark"] {
