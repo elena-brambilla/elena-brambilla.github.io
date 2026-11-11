@@ -67,6 +67,12 @@
     --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
+html:has([data-theme="dark"]),
+html[data-theme="dark"] {
+    background-color: #10002b !important;
+    color-scheme: dark;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
