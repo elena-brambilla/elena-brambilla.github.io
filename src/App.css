@@ -143,12 +143,6 @@ a {
     transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.btn-primary:hover,
-.card-link-btn:hover {
-    background-color: var(--primary-hover);
-    transform: translateY(-2px);
-}
-
 .btn-secondary {
     display: inline-block;
     background-color: transparent;
@@ -164,10 +158,19 @@ a {
     transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.btn-secondary:hover {
-    background-color: var(--secondary-hover);
-    color: var(--text-button);
-    transform: translateY(-2px);
+@media (hover: hover) and (pointer: fine) {
+
+    .btn-primary:hover,
+    .card-link-btn:hover {
+        background-color: var(--primary-hover);
+        transform: translateY(-2px);
+    }
+
+    .btn-secondary:hover {
+        background-color: var(--secondary-hover);
+        color: var(--text-button);
+        transform: translateY(-2px);
+    }
 }
 
 .btn-primary:active,
@@ -2446,7 +2449,7 @@ h3 {
     }
 
     .btn-secondary {
-        border: solid 2px var(--secondary-border);
+        border: solid 2px var(--secondary-border) !important;
         border-radius: 50px;
     }
 
