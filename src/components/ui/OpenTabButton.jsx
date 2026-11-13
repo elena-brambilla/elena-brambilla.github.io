@@ -1,7 +1,7 @@
 import React from "react";
 import cv from "../../assets/cv.pdf";
 
-function OpenTabButton({ text, link, newTab = false, download = false }) {
+function OpenTabButton({ text, link, newTab = false, download = false, downloadName }) {
   return (
     <a
       href={link}
