@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Button from "./ui/Button";
 import ThemeToggle from "./ui/ThemeToggle";
 import { Link } from "react-router";
+import logo from "../assets/icons/logo-portfolio.svg"
 import cvFile from "../assets/cv.pdf"
 import OpenTabButton from './ui/OpenTabButton.jsx'
 
@@ -11,7 +12,7 @@ function Header() {
     return (
         <>
             <nav className="global-navbar">
-                <div className="navbar-logo"><Link to="/">[Il Tuo Nome]</Link></div>
+                <div className="navbar-logo"><Link to="/">{logo}</Link></div>
 
                 <button
                     className={`menu-toggle-icon ${isOpen ? "open" : ""}`}
