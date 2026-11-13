@@ -66,8 +66,8 @@ function Home() {
                                 <div className="project-tags">
                                     <span>UX/UI Design</span>
                                     <span>Speculative Design</span>
-                                    <span>HTML5 / CSS3</span>
-                                    <span>Vanilla JavaScript</span>
+                                    <span>HTML / CSS</span>
+                                    <span>JavaScript</span>
                                 </div>
                                 <Button text="Vedi Case Study" to="/my-projects/nexus" className="card-link-btn" />
                             </div>
@@ -85,7 +85,7 @@ function Home() {
                                     <span>UX Research</span>
                                     <span>Data Analysis</span>
                                     <span>Interaction Design</span>
-                                    <span>High-Fidelity Prototyping</span>
+                                    <span>Prototyping</span>
                                 </div>
                                 <Button text="Vedi Case Study" to="/my-projects/mat" className="card-link-btn" />
                             </div>

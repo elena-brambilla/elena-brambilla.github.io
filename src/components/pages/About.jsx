@@ -26,24 +26,30 @@ function About() {
                             {/* Skills Box */}
                             <div className="skills-box">
                                 <h4>Le Mie Competenze</h4>
-
-                                <h5>Design & Ricerca (UX/UI)</h5>
                                 <ul>
                                     <li>User Research (Qualitativa e Quantitativa)</li>
-                                    <li>Card Sorting & Architettura dell'Informazione</li>
-                                    <li>Wireframing & High-Fidelity Prototyping</li>
-                                    <li>Design di Interfacce per Schermi Fisici e Totem</li>
-                                    <li>Accessibilità (Criteri WCAG e Contrasti)</li>
-                                </ul>
-
-                                <h5>Sviluppo Frontend (Dev)</h5>
-                                <ul>
+                                    <li>Architettura dell'Informazione</li>
+                                    <li>Wireframe e Prototipazione</li>
+                                    <li>Design di Interfacce</li>
+                                    <li>Accessibilità (Criteri WCAG)</li>
                                     <li>ReactJS (Gestione dello Stato e Componenti)</li>
                                     <li>HTML5 & CSS3 (Layout Responsive e Animazioni)</li>
                                     <li>Vanilla JavaScript (ES6+)</li>
                                     <li>Capacitor (Porting Mobile Android)</li>
                                     <li>Integrazione Cloud (Google Apps Script e Database Sheets)</li>
-                                    <li>Ambiente di Sviluppo (Vite, Material UI / MUI)</li>
+                                    <li>Ambiente di Sviluppo (Vite)</li>
+                                    <li>Librerie di stile (Material UI/MUI)</li>
+                                    <li>Utilizzo CMS (Wordpress)</li>
+                                    <li>Fondamenti SEO</li>
+                                </ul>
+                                <h4>Software</h4>
+                                <ul>
+                                    <li>Figma</li>
+                                    <li>Wordpress</li>
+                                    <li>Visual Studio Code</li>
+                                    <li>Microsoft Office</li>
+                                    <li>Notion</li>
+                                    <li>Google Workspace</li>
                                 </ul>
                             </div>
                         </div>

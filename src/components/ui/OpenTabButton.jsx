@@ -1,12 +1,14 @@
 import React from "react";
+import cv from "../../assets/cv.pdf";
 
 function OpenTabButton({ text, link, newTab = false, download = false }) {
   return (
     <a
       href={link}
-      download={download}
-      target={newTab ? "_blank" : "_self"}
-      rel={newTab ? "noopener noreferrer" : undefined}
+      /* download={download} */
+      target={newTab && !downloadName ? "_blank" : "_self"}
+      rel={newTab && !downloadName ? "noopener noreferrer" : undefined}
+      download={downloadName || undefined}
       className="btn-secondary"
       >
         {text}
