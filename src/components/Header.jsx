@@ -12,7 +12,7 @@ function Header() {
     return (
         <>
             <nav className="global-navbar">
-                <div className="navbar-logo"><Link to="/">{logo}</Link></div>
+                <div className="navbar-logo"><Link to="/"><img src={logo} alt="Logo Portfolio" /></Link></div>
 
                 <button
                     className={`menu-toggle-icon ${isOpen ? "open" : ""}`}
