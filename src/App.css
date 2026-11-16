@@ -244,12 +244,6 @@ img:hover {
     z-index: 1000;
 }
 
-.navbar-logo {
-    font-family: var(--font-titles);
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-
 .navigation-buttons {
     display: flex;
     flex-direction: row;
@@ -2444,6 +2438,11 @@ h3 {
 
     .global-navbar {
         padding: 15px !important;
+    }
+
+    .navbar-logo {
+        width: 1.05rem;
+        height: 1.05rem;
     }
 
     .btn-primary,
