@@ -2979,6 +2979,9 @@ h3 {
 
     .nexus-sci-fi-frame {
         padding: 15px;
+    }
+
+    .evolution-carousel {
         height: 400px !important;
     }
 
@@ -3006,6 +3009,23 @@ h3 {
 
     .progress-beveled-bar {
         transform: skewX(-15deg);
+    }
+
+    .evolution-track {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 60px;
+    }
+
+    .evolution-label {
+        display: block;
+        line-height: 1.2;
+    }
+
+    .evolution-bar {
+        width: 100%;
+        margin-top: auto;
     }
 
     .typography-grid-nexus {

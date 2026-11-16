@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Footer from '../Footer';
 import Start from '../../assets/projectimages/nexus/touchToStart.gif';
 import TextScramble from "../ui/TextScramble";
 import ProjectPopup from "../ui/ClosePopUpButton";
@@ -238,7 +237,7 @@ function Project3() {
                             <br />
 
                             <p>Sulla base di queste linee guida abbiamo definito il Look & Feel finale. Abbiamo creato un'identità visiva coerente con l'atmosfera fantascientifica del Nexus, capace di evocare meraviglia e avventura ma garantendo al contempo un'altissima leggibilità e accessibilità visiva per utenti con diverse abilità sensoriali.</p>
-                            <div className="nexus-sci-fi-frame">
+                            <div className="nexus-sci-fi-frame evolution-carousel">
                                 <div className="frame-header-tag">INTERFACE // EVOLUTION_STEPS</div>
                                 <div className="nexus-carousel-viewport">
                                     <button
@@ -259,9 +258,9 @@ function Project3() {
                                         <div className="carousel-dot-core"></div>
                                     </button>
                                 </div>
-                                <div className="nexus-progress-track">
-                                    <span className="progress-label">{evolutionSlides[indexEvolution].label}</span>
-                                    <div className="progress-beveled-bar">
+                                <div className="nexus-progress-track evolution-track">
+                                    <span className="progress-label evolution-label">{evolutionSlides[indexEvolution].label}</span>
+                                    <div className="progress-beveled-bar evolution-bar">
                                         <div
                                             className="progress-fill"
                                             style={{ width: `${((indexEvolution + 1) / evolutionSlides.length) * 100}%` }}
@@ -286,7 +285,6 @@ function Project3() {
                                 <li><strong>Internazionalizzazione:</strong> Architettura predisposta per il supporto multi-lingua e multi-valuta, fondamentale per un hub di transito multiversale.</li>
                             </ul>
                         </div>
-                        <Footer />
                     </div>
                 )
                 }

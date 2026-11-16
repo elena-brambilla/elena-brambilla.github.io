@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Footer from "../Footer";
 import ProjectPopup from "../ui/ClosePopUpButton";
 import FoodExplorer from '../../assets/projectimages/foodexplorer.svg'
 import LightPalette from '../../assets/projectimages/food_explorer/lightcolorpalette.png'
@@ -173,7 +172,6 @@ function Project1() {
                     </div>
                 </div>
             </div >
-            <Footer />
         </>
     );
 }
