@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Footer from "../Footer";
 import ProjectPopup from "../ui/ClosePopUpButton";
-import FoodExplorer from '../../assets/projectimages/foodexplorer.png'
+import FoodExplorer from '../../assets/projectimages/foodexplorer.svg'
 import LightPalette from '../../assets/projectimages/food_explorer/lightcolorpalette.png'
 import DarkPalette from '../../assets/projectimages/food_explorer/darkcolorpalette.png'
 import FontPalette from '../../assets/projectimages/food_explorer/fontpalette.png'

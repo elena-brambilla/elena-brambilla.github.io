@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../Header";
 import Footer from "../Footer";
 import Button from "../ui/Button";
-import FoodExplorer from "../../assets/projectimages/foodexplorer.png";
+import FoodExplorer from "../../assets/projectimages/foodexplorer.svg";
 import MoodApp from "../../assets/projectimages/moodapp.jpg";
 import Nexus from "../../assets/projectimages/nexus.png";
 import Mat from "../../assets/projectimages/mat.png";
@@ -14,7 +14,6 @@ function MyProjects() {
             <h3>I Miei Progetti</h3>
             <div className="portfolio-grid">
 
-                {/* Progetto 1: Food Explorer */}
                 <div className="portfolio-card">
                     <div className="project-image">
                         <img src={FoodExplorer} alt="Anteprima Food Explorer" />
@@ -33,7 +32,6 @@ function MyProjects() {
                     </div>
                 </div>
 
-                {/* Progetto 2: Tesi / Stage */}
                 <div className="portfolio-card">
                     <div className="project-image">
                         <img src={MoodApp} alt="Anteprima Mood App" />
@@ -52,7 +50,6 @@ function MyProjects() {
                     </div>
                 </div>
 
-                {/* Progetto 3: Nexus */}
                 <div className="portfolio-card">
                     <div className="project-image">
                         <img src={Nexus} alt="Anteprima Nexus Multiversal Crossroad" />
@@ -71,7 +68,6 @@ function MyProjects() {
                     </div>
                 </div>
 
-                {/* Progetto 4: Mat Smart Table */}
                 <div className="portfolio-card">
                     <div className="project-image">
                         <img src={Mat} alt="Anteprima Mat Smart Table" />

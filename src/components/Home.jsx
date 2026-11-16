@@ -1,5 +1,5 @@
 import React from "react";
-import FoodExplorer from "../assets/projectimages/foodexplorer.png"
+import FoodExplorer from "../assets/projectimages/foodexplorer.svg"
 import MoodApp from "../assets/projectimages/moodapp.jpg"
 import Nexus from "../assets/projectimages/nexus.png"
 import Mat from "../assets/projectimages/mat.png"
