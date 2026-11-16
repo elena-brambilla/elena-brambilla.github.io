@@ -2437,12 +2437,14 @@ h3 {
     }
 
     .global-navbar {
-        padding: 15px !important;
+        padding: 35px !important;
     }
 
     .navbar-logo {
-        width: 1.05rem;
-        height: 1.05rem;
+        position: absolute;
+        top: 10px;
+        width: 40px;
+        left: 20px;
     }
 
     .btn-primary,
@@ -2492,7 +2494,7 @@ h3 {
         border: none;
         cursor: pointer;
         position: absolute;
-        top: 20px;
+        top: 25px;
         right: 20px;
         z-index: 1010;
     }
