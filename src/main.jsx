@@ -16,6 +16,8 @@ import Project3 from './components/pages/Project3.jsx'
 import Project4 from './components/pages/Project4.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router'
 
+import NotFound from './components/NotFound.jsx';
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
@@ -29,6 +31,8 @@ createRoot(document.getElementById('root')).render(
         <Route path="/my-projects/mood-app" element={<Project2 />} />
         <Route path="/my-projects/nexus" element={<Project3 />} />
         <Route path="/my-projects/mat" element={<Project4 />} />
+
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
