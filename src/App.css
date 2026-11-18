@@ -2422,11 +2422,20 @@ h3 {
 }
 
 /**** 404 NOT FOUND ****/
+.not-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto;
+}
+
+.not-found-container {
+    display: inline;
+}
+
 .not-found-navbar-logo {
     width: 150px;
     height: auto;
-    justify-content: center;
-    margin-top: 5rem;
 }
 
 .not-found-h1 {
