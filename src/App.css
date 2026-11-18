@@ -2424,6 +2424,7 @@ h3 {
 /**** 404 NOT FOUND ****/
 .not-found {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 3rem auto;
