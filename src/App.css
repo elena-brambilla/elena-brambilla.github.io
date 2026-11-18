@@ -2434,6 +2434,7 @@ h3 {
     display: flex;
     flex-direction: row;
     margin: 20px 0;
+    gap: 20px;
 }
 
 .not-found-navbar-logo {
@@ -2462,7 +2463,7 @@ h3 {
     color: var(--secondary-text);
     border-radius: var(--border-btn);
     padding: 20px;
-    border: solid 2px var(--secondary-border);
+    border: solid 3px var(--secondary-border);
     margin-top: 20px;
 }
 
