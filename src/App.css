@@ -2440,14 +2440,26 @@ h3 {
     height: auto;
 }
 
+.not-found-titles {
+    display: flex;
+    flex-direction: column;
+}
+
 .not-found-h1 {
     color: var(--accent);
+    font-size: xx-large;
+}
+
+.not-found-h2 {
+    font-size: larger;
 }
 
 .homepage-link {
-    background-color: var(--primary);
+    background-color: transparent;
     color: var(--text-button);
     border-radius: var(--border-btn);
+    padding: 20px;
+    border: solid 2px var(--secondary-border);
 }
 
 /**** VISUALIZZAZIONE PER TABLET ****/
