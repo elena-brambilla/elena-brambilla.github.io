@@ -2433,6 +2433,7 @@ h3 {
 .not-found-container {
     display: flex;
     flex-direction: row;
+    margin: 20px 0;
 }
 
 .not-found-navbar-logo {
@@ -2443,10 +2444,12 @@ h3 {
 .not-found-titles {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 15px;
 }
 
 .not-found-h1 {
-    color: var(--accent);
+    color: var(--text-muted);
     font-size: xx-large;
 }
 
@@ -2456,10 +2459,11 @@ h3 {
 
 .homepage-link {
     background-color: transparent;
-    color: var(--text-button);
+    color: var(--secondary-text);
     border-radius: var(--border-btn);
     padding: 20px;
     border: solid 2px var(--secondary-border);
+    margin-top: 20px;
 }
 
 /**** VISUALIZZAZIONE PER TABLET ****/
