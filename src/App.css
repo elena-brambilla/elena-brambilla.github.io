@@ -2431,7 +2431,8 @@ h3 {
 }
 
 .not-found-container {
-    display: inline;
+    display: flex;
+    flex-direction: row;
 }
 
 .not-found-navbar-logo {
@@ -2446,7 +2447,7 @@ h3 {
 .homepage-link {
     background-color: var(--primary);
     color: var(--text-button);
-    border: var(--border-btn);
+    border-radius: var(--border-btn);
 }
 
 /**** VISUALIZZAZIONE PER TABLET ****/
