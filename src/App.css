@@ -2425,7 +2425,8 @@ h3 {
 .not-found-navbar-logo {
     width: 150px;
     height: auto;
-    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
 }
 
 .not-found-h1 {
