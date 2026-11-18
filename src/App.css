@@ -2446,7 +2446,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 15px;
+    gap: -10px;
 }
 
 .not-found-h1 {
