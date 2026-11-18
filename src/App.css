@@ -2453,11 +2453,11 @@ h3 {
 
 .not-found-h1 {
     color: var(--text-muted);
-    font-size: xx-large;
+    font-size: 5rem;
 }
 
 .not-found-h2 {
-    font-size: larger;
+    font-size: 3rem;
 }
 
 .homepage-link {
