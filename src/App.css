@@ -2421,6 +2421,20 @@ h3 {
     box-shadow: 0 6px 24px rgba(75, 146, 219, 0.12);
 }
 
+/**** 404 NOT FOUND ****/
+.not-found-navbar-logo {
+    width: 150px;
+    height: auto;
+}
+
+.not-found-h1 {
+    color: var(--accent);
+}
+
+/* .homepage-link {
+
+} */
+
 /**** VISUALIZZAZIONE PER TABLET ****/
 @media screen and (max-width: 1023px) {
 
