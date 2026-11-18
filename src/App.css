@@ -2425,15 +2425,18 @@ h3 {
 .not-found-navbar-logo {
     width: 150px;
     height: auto;
+    align-items: center;
 }
 
 .not-found-h1 {
     color: var(--accent);
 }
 
-/* .homepage-link {
-
-} */
+.homepage-link {
+    background-color: var(--primary);
+    color: var(--text-button);
+    border: var(--border-btn);
+}
 
 /**** VISUALIZZAZIONE PER TABLET ****/
 @media screen and (max-width: 1023px) {
