@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Notfound from '../assets/images/404-light.svg'
+import Notfound from '../assets/images/404.svg'
 import Button from './ui/Button'
 
 export default function NotFound() {
