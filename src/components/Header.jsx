@@ -27,7 +27,7 @@ function Header() {
                 <div className={`navigation-buttons ${isOpen ? "mobile-open" : ""}`}>                  
                     <Button text="About" to="/about-me" className="btn-primary" />
                     <Button text="I miei Progetti" to="/my-projects" className="btn-primary" />
-                    <OpenTabButton text="Scarica il mio CV" link={cvFile} downloadName="Elena_Brambilla_CV_UX_Designer.pdf" newTab={true} />
+                    <OpenTabButton text="Curriculum Vitae" link={cvFile} downloadName="Elena_Brambilla_CV_UX_Designer.pdf" newTab={true} />
                     <ThemeToggle />
                 </div>
             </nav>
