@@ -11,8 +11,8 @@ function Home() {
             <div className="home-container">
                 <header className="hero-section">
                     <h1>Ciao, sono Elena Brambilla</h1>
-                    <h2>UX/UI Designer & UX Engineer</h2>
-                    <p>Progetto esperienze digitali unendo la ricerca utente, il design dell'interfaccia e lo sviluppo frontend. Creo soluzioni visive nate dai dati e pronte per diventare codice funzionante.</p>
+                    <h2>UX/UI Designer & Front-end Developer</h2>
+                    <p>Progetto esperienze digitali unendo la ricerca utente, il design dell'interfaccia e lo sviluppo front-end. Creo soluzioni visive nate dai dati e pronte per diventare codice funzionante.</p>
                 </header>
 
                 <main className="portfolio">

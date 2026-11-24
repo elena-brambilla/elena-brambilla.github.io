@@ -15,9 +15,9 @@ function About() {
                     <div className="about-grid">
 
                         <div className="about-text">
-                            <p>Sono una designer e sviluppatrice frontend focalizzata sulla creazione di interfacce digitali che siano intuitive per le persone e sostenibili dal punto di vista tecnico. Il mio percorso mi ha permesso di sviluppare una forma mentis ibrida: amo ascoltare gli utenti, analizzare i dati e disegnare flussi d'interfaccia, ma trovo altrettanto stimolante tradurre quelle idee in codice pulito e funzionante.</p>
+                            <p>Sono una UX/UI designer e sviluppatrice front-end focalizzata sulla creazione di interfacce digitali che siano intuitive per le persone e sostenibili dal punto di vista tecnico. Il mio percorso mi ha permesso di sviluppare una forma mentis ibrida: sono capace di ascoltare gli utenti, analizzare i dati e disegnare flussi d'interfaccia che riflettano tali analisi, ma trovo altrettanto stimolante tradurre quelle idee in codice pulito e funzionante.</p>
 
-                            <p>Non mi limito a progettare schermate statiche. Quando disegno un componente visivo o un'ombreggiatura, ne valuto subito l'affordance per l'utente e, al tempo stesso, l'impatto logico che avrà nel progetto. Questo mi consente di collaborare in modo efficiente all'interno di team multidisciplinari, parlando la lingua dei designer e comprendendo a fondo i vincoli degli ingegneri del software.</p>
+                            <p>Non mi limito a progettare schermate statiche. Quando disegno un componente visivo o un'ombreggiatura, ne valuto subito l'affordance per l'utente e, al tempo stesso, l'impatto logico che avrà nel progetto. Questo mi consente di collaborare in modo efficiente all'interno di team multidisciplinari, parlando la lingua dei designer e comprendendo i vincoli degli ingegneri del software.</p>
 
                             <p>Sia che si tratti di condurre ricerche quantitative tramite questionari o sessioni di Card Sorting, sia che si tratti di configurare un ambiente di sviluppo con Vite, scrivere componenti riutilizzabili in ReactJS o gestire il porting mobile con Capacitor, affronto ogni sfida con metodo scientifico, curiosità e attenzione rigorosa all'accessibilità.</p>
                         </div>
