@@ -15,11 +15,11 @@ function About() {
                     <div className="about-grid">
 
                         <div className="about-text">
-                            <p>Sono una UX/UI designer e sviluppatrice front-end focalizzata sulla creazione di interfacce digitali che siano intuitive per le persone e sostenibili dal punto di vista tecnico. Il mio percorso mi ha permesso di sviluppare una forma mentis ibrida: sono capace di ascoltare gli utenti, analizzare i dati e disegnare flussi d'interfaccia che riflettano tali analisi, ma trovo altrettanto stimolante tradurre quelle idee in codice pulito e funzionante.</p>
+                            <p>Sono una UX/UI Designer con competenze di sviluppo Front-End, appassionata di design inclusivo, ricerca sugli utenti e progettazione di interfacce intuitive per le persone e sostenibili dal punto di vista tecnico. Grazie alla mia formazione, porto un approccio scientifico e centrato sull’utente nella risoluzione dei problemi.</p>
 
-                            <p>Non mi limito a progettare schermate statiche. Quando disegno un componente visivo o un'ombreggiatura, ne valuto subito l'affordance per l'utente e, al tempo stesso, l'impatto logico che avrà nel progetto. Questo mi consente di collaborare in modo efficiente all'interno di team multidisciplinari, parlando la lingua dei designer e comprendendo i vincoli degli ingegneri del software.</p>
+                            <p>Il mio focus principale è seguire il processo di progettazione e prototipazione: parto dall'analisi dei dati e dalla ricerca per disegnare flussi e sistemi visivi curati su Figma. A questo affianco una buona padronanza dello sviluppo front-end, che mi permette di prototipare o tradurre le idee in codice utilizzando HTML, CSS, ReactJS (con Vite) e librerie di stile come MUI, oltre a conoscenze nell'utilizzo di WordPress.</p>
 
-                            <p>Sia che si tratti di condurre ricerche quantitative tramite questionari o sessioni di Card Sorting, sia che si tratti di configurare un ambiente di sviluppo con Vite, scrivere componenti riutilizzabili in ReactJS o gestire il porting mobile con Capacitor, affronto ogni sfida con metodo scientifico, curiosità e attenzione rigorosa all'accessibilità.</p>
+                            <p>Non mi limito a progettare schermate statiche: valuto sempre sia l'accessibilità per l'utente sia la fattibilità tecnica delle soluzioni. Questo mi permette di collaborare in modo fluido in team multidisciplinari, dialogando con naturalezza con gli sviluppatori e facendo da ponte tra design e codice.</p>
                         </div>
 
                         <div className="about-sidebar">
