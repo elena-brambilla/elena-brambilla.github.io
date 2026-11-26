@@ -3,7 +3,7 @@ import Button from "./ui/Button";
 import ThemeToggle from "./ui/ThemeToggle";
 import { Link } from "react-router";
 import logo from "../assets/icons/logo-portfolio.svg"
-import cvFile from "../assets/cv.pdf"
+import cvFile from "../assets/cv-ita.pdf"
 import OpenTabButton from './ui/OpenTabButton.jsx'
 
 function Header() {
